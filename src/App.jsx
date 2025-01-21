@@ -4,7 +4,7 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
-import HomePage from "./pages/Home/HomePage";
+import NoPage from "./pages/Home/HomePage";
 import NoPage from "./pages/noPage/NoPage";
 import ProductInfo from "./pages/productInfo/ProductInfo";
 import ScrollTop from "./component/scrollTop/ScrollTop";
@@ -28,7 +28,7 @@ const App = () => {
       <Router>
         <ScrollTop />
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<HomePage/>} />
           <Route path="/*" element={<NoPage />} />
           <Route path="/productinfo/:id" element={<ProductInfo />} />
           <Route path="/cart" element={<CartPage />} />
