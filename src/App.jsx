@@ -4,7 +4,6 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
-import HomePage from "./pages/Home/HomePage";
 import NoPage from "./pages/noPage/NoPage";
 import ProductInfo from "./pages/productInfo/ProductInfo";
 import ScrollTop from "./component/scrollTop/ScrollTop";
@@ -21,6 +20,7 @@ import { Toaster } from "react-hot-toast";
 import { ProtectedRouteForUser } from "./protectedRoute/ProtectedRouteForUser";
 import { ProtectedRouteForAdmin } from "./protectedRoute/ProtectedRouteForAdmin";
 import CategoryPage from "./pages/category/CategoryPage";
+import NewHome from "./pages/Home/NewHome";
 
 const App = () => {
   return (
@@ -28,7 +28,7 @@ const App = () => {
       <Router>
         <ScrollTop />
         <Routes>
-          <Route path="/" element={<HomePage/>} />
+          <Route path="/" element={<NewHome/>} />
           <Route path="/*" element={<NoPage />} />
           <Route path="/productinfo/:id" element={<ProductInfo />} />
           <Route path="/cart" element={<CartPage />} />
