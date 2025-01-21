@@ -4,7 +4,7 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
-import NoPage from "./pages/noPage/NoPage";
+import NoPage from "./pages/NoPage/NoPage";
 import ProductInfo from "./pages/productInfo/ProductInfo";
 import ScrollTop from "./component/scrollTop/ScrollTop";
 import CartPage from "./pages/cart/CartPage";
