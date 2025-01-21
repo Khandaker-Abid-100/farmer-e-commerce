@@ -6,7 +6,7 @@ import Testimonial from "../../component/testimonial/Testimonial"
 import Track from "../../component/track/Track"
 
 
-const Homepage = () => {
+const HomePage = () => {
 
   return (
 
@@ -23,4 +23,4 @@ const Homepage = () => {
   )
 }
 
-export default Homepage
+export default HomePage
